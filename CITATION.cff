@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Surfaceome Pipeline: an R Shiny application for CITE-seq and proteomics integration and cell-surface target prioritization"
+type: software
+version: 3.0.0
+date-released: 2026-10-22
+license: MIT
+repository-code: "https://github.com/ManiMuralidharan/surfaceome-pipeline"
+authors:
+  - family-names: Mani
+    given-names: Muralidharan
+    orcid: "https://orcid.org/0000-0002-1194-3616"
+    affiliation: "University of Wisconsin-Madison"
+keywords:
+  - surfaceome
+  - CITE-seq
+  - proteomics
+  - target prioritization
+  - R Shiny
+  - limma
+references:
+  - type: article
+    authors:
+      - family-names: Ritchie
+        given-names: Matthew E.
+    title: "limma powers differential expression analyses for RNA-sequencing and microarray studies"
+    journal: "Nucleic Acids Research"
+    year: 2015
+    doi: "10.1093/nar/gkv007"
+  - type: article
+    authors:
+      - family-names: Robin
+        given-names: Xavier
+    title: "pROC: an open-source package for R and S+ to analyze and compare ROC curves"
+    journal: "BMC Bioinformatics"
+    year: 2011
+    doi: "10.1186/1471-2105-12-77"
+  - type: article
+    authors:
+      - family-names: Grau
+        given-names: Jan
+    title: "PRROC: computing and visualizing precision-recall and receiver operating characteristic curves in R"
+    journal: "Bioinformatics"
+    year: 2015
+    doi: "10.1093/bioinformatics/btv153"

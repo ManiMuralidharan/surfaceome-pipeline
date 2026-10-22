@@ -1,0 +1,66 @@
+exit
+q ()
+BiocManager::install("fgsea")#
+install.packages("msigdbr")
+install.packages("msigdbr")
+library(fgsea); library(msigdbr)
+(q)
+BiocManager::install(c("scran", "BiocNeighbors", "edgeR", "spdep", "igraph"),#
+                     ask = FALSE, update = FALSE)
+install.packages("harmony")
+BiocManager::install("STexampleData")#
+spe <- STexampleData::Visium_humanDLPFC()#
+spe$condition <- "control"#
+saveRDS(spe, "dlpfc_test.rds")
+BiocManager::install("STexampleData")
+spe <- STexampleData::Visium_humanDLPFC()#
+spe$condition <- "control"#
+saveRDS(spe, "dlpfc_test.rds")
+spe$condition <- "control"#
+saveRDS(spe, "dlpfc_test.rds")
+BiocManager::valid() # This will tell you what is out of date#
+BiocManager::install(ask = FALSE) # This forces updates for all outdated packages
+library(ExperimentHub)#
+eh <- ExperimentHub()#
+removeCache(eh)
+spe <- STexampleData::Visium_humanDLPFC()
+spe <- STexampleData::Visium_humanDLPFC()#
+spe$condition <- "control"#
+saveRDS(spe, "dlpfc_test.rds")
+library(ExperimentHub)#
+eh <- ExperimentHub()
+spe <- STexampleData::Visium_humanDLPFC()#
+spe$condition <- "control"#
+saveRDS(spe, "dlpfc_test.rds")
+unlink(tools::R_user_dir("ExperimentHub", which = "cache"), recursive = TRUE)#
+unlink("~/Library/Caches/org.R-project.R/R/ExperimentHub", recursive = TRUE)
+eh <- ExperimentHub::ExperimentHub()
+spe <- STexampleData::Visium_humanDLPFC()#
+stopifnot(inherits(spe, "SpatialExperiment"))#
+spe$condition <- "control"#
+saveRDS(spe, "dlpfc_test.rds")
+q()
+setwd("~/Downloads/surfaceome-pipeline-v3"); source("tests/test_core.R")
+pkgs <- c("shiny","bslib","ggplot2","DT","pROC","PRROC")#
+missing <- pkgs[!pkgs %in% rownames(installed.packages())]#
+print(missing)#
+if (length(missing)) install.packages(missing)#
+#
+if (!requireNamespace("limma", quietly = TRUE)) {#
+  if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")#
+  BiocManager::install("limma")#
+}
+setwd("~/Downloads/surfaceome-pipeline-v3"); source("tests/test_core.R")
+# Add this right before the failing stopifnot() or test line:#
+print(d2[d2$feature %in% paste0("P", 1:5), c("feature", "logFC")])
+d2$logFC[match(paste0("P", 1:5), d2$feature)]
+source("tests/test_core.R")
+browser() # <-- Add this line#
+fit <- lmFit(expression_matrix, design)
+ls()
+d["P1", ]
+head(m2)
+m2["P1", ]
+# If there is a metadata object, it might be named md based on your ls() output#
+head(md)
+q()
